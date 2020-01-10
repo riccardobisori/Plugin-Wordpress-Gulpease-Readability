@@ -1,0 +1,47 @@
+div.metaBoxStyleAnalysis{
+    margin: 1px;
+    padding: 8px;
+    
+}
+
+div.metaBoxStyleExplanation{
+    margin: 1px;
+    padding: 12px;
+    border-style: double;
+    border-radius: 5px;
+    border-color: black;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+div.equation{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #fbfbe1;
+    padding: 7px;
+    border-color: silver;
+    margin-left: 180px;
+    margin-right: 180px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+div.fraction{
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+
+div.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+
+div.fraction span.fdn {
+    border-top: thin solid black;
+}
+
+div.fraction span.bar {
+    display: none;
+}
